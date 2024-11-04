@@ -1,0 +1,18 @@
+.dado {
+    width: 5vw;
+    height: 5vw;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    border: solid 2px #000000;
+}
+
+.dado p {
+    font-size: 24px;
+    margin: 0%;
+}
+
+
+.bloqueado {
+    filter: brightness(0.8);
+}
